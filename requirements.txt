@@ -1,4 +1,4 @@
-adium-theme-ubuntu
+adium-theme-ubuntu==0.3.4
 configparser==3.5.0
 kafka-python==1.4.4
 kerberos==1.3.0
