@@ -3,7 +3,7 @@ FROM bitnami/python:2.7.15
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -qq install krb5-user libkrb5-dev
 
-RUN apt-get -y install python-dev libkrb5-dev
+RUN apt-get -y install libkrb5-dev
 
 ADD requirements.txt /etc
 
